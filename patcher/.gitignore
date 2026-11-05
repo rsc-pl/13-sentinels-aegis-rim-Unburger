@@ -1,0 +1,11 @@
+# build outputs
+/bin/
+/dist/
+
+# generated reports and demo outputs
+/reports/
+examples/demo/reports/
+examples/demo/out/
+
+# local scratch
+*.tmp

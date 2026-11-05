@@ -1,0 +1,11 @@
+/.local/
+/bin/
+/dist/
+/target/
+/build/
+/coverage/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp

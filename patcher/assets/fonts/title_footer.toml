@@ -1,0 +1,46 @@
+# title_footer.toml — style for the in-game title-screen footer.
+#
+# The footer replaces only the shipped copyright line inside the game's title
+# texture with the label "Unburger Mod v<version>" (the version is read from
+# version.txt at the repository root). This file controls how that label is
+# drawn. It is read from disk on every build, so editing it and rebuilding
+# changes the next build — no recompile, no dashboard restart.
+#
+# Colours are "#rrggbb". Opacities are 0..1 (0 = invisible, 1 = opaque).
+# A missing file uses the built-in defaults; they match the values below except
+# letter_spacing, which defaults to 0 (the 2026-10-19 reference composition).
+# The shipped letter_spacing and face below are a release composition, not a
+# runtime-confirmed one. An unknown key, a wrong type or an out-of-range value
+# fails the build.
+
+# Display face file, relative to this directory (patcher/assets/fonts).
+font_file = "unburger.otf"
+
+# Em size in pixels. 0 = automatic: the largest size that still fits the
+# footer area. Range 0..512.
+font_size = 0
+
+# Extra space between glyphs, in em units (a fraction of the font size).
+# Range -0.5..2.0; use 0 for the normal spacing.
+letter_spacing = 0.2
+
+# Glyph ink colour and opacity.
+text_color = "#ffffff"
+text_opacity = 1.0
+
+# Outline width in pixels (dilation radius), with its own colour and opacity.
+outline_width = 1.0
+outline_color = "#000000"
+outline_opacity = 0.5
+
+# Shift of the centred label, in pixels. Range -512..512.
+offset_x = 0
+offset_y = 0
+
+# Backing behind the label. Opacity 0 keeps the backing fully transparent, so
+# the title artwork shows through everywhere the label has no ink (default).
+background_color = "#000000"
+background_opacity = 0.0
+
+# The footer renderer has no shadow pass; the only accepted value is false.
+shadow_enabled = false

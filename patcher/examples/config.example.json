@@ -1,0 +1,14 @@
+{
+  "roms_base": "/path/to/base",
+  "roms_update": "/path/to/update",
+  "keys_dir": "/path/to/keys",
+  "translations_dir": "translations",
+  "cache_dir": "/path/to/state/cache",
+  "output_dir": "/path/to/out",
+  "output_name": "",
+  "encoder": "chain",
+  "extractor_command": [],
+  "plate_base": "",
+  "allow_missing_resources": false,
+  "title_branding": true
+}

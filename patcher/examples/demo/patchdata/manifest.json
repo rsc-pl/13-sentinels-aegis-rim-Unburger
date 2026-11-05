@@ -1,0 +1,76 @@
+{
+  "spec_version": 1,
+  "bundle_id": "example-1",
+  "bundle_version": "1.0.0",
+  "release_version": "2026.1",
+  "game": {
+    "title": "Example Game",
+    "region": "US",
+    "base_version": "1.10"
+  },
+  "format_version": "cpk-fmsb-1",
+  "required_sources": [
+    {
+      "role": "patch_archive",
+      "name": "Game patch archive",
+      "path_hint": "GAME_PATCH.CPK",
+      "size": 14512,
+      "sha256": "76d1f80934b8f9a19a52c5a7bfda41d361c3a9647f6e361b90d7eb0334482fe1"
+    }
+  ],
+  "operations": [
+    {
+      "id": "op-greeting-0",
+      "kind": "replace_text_record",
+      "member": "Fms/Greeting.fms",
+      "record_index": 0,
+      "original_sha256": "10df0ba2e6068a3621b0fddeeac4afa45715457b919af3df64b6b8ea6d1c9fc3",
+      "original": "Hello, pilot.",
+      "content": "content/op-greeting-0.txt",
+      "content_sha256": "4369e7689c1b881a696036a0c40c6c031813e697a5c7807747e167e9032a9f5f",
+      "preserve_tokens": true
+    },
+    {
+      "id": "op-greeting-1",
+      "kind": "replace_text_record",
+      "member": "Fms/Greeting.fms",
+      "record_index": 1,
+      "original_sha256": "e1f7a704f2ff04ee1281216422503d994d6c72684fdcffc4253291f3e8901832",
+      "original": "@#(1)Begin@/b",
+      "content": "content/op-greeting-1.txt",
+      "content_sha256": "4af4100eae8ede8abd0554eef136939ff08cf25b56cc74b16deb70e69137318d",
+      "preserve_tokens": true
+    },
+    {
+      "id": "op-menu-2",
+      "kind": "replace_text_record",
+      "member": "Fms/Menu.fms",
+      "record_index": 2,
+      "original_sha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
+      "original": "Quit",
+      "content": "content/op-menu-2.txt",
+      "content_sha256": "cd3943f36e0179bab65bbcaf374a19b464f030d0c753489d6ae44425e3dac25e",
+      "preserve_tokens": true
+    }
+  ],
+  "content_files": [
+    {
+      "path": "content/op-greeting-0.txt",
+      "sha256": "4369e7689c1b881a696036a0c40c6c031813e697a5c7807747e167e9032a9f5f",
+      "size": 17
+    },
+    {
+      "path": "content/op-greeting-1.txt",
+      "sha256": "4af4100eae8ede8abd0554eef136939ff08cf25b56cc74b16deb70e69137318d",
+      "size": 13
+    },
+    {
+      "path": "content/op-menu-2.txt",
+      "sha256": "cd3943f36e0179bab65bbcaf374a19b464f030d0c753489d6ae44425e3dac25e",
+      "size": 9
+    }
+  ],
+  "output_constraints": {
+    "preserve_unmodified_members": true
+  }
+}

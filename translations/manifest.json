@@ -1,0 +1,111 @@
+{
+  "bank_count": 18,
+  "banks": [
+    {
+      "bank_key": "fms/battlebonusname.fms",
+      "records": 3,
+      "sha256": "f80244a5970ce032f1974368bdf54b732c6206b867c59547810f1a79595dac91"
+    },
+    {
+      "bank_key": "fms/battlesubtitle.fms",
+      "records": 190,
+      "sha256": "3f8ebf13e9d573257593930e1732d7126ee843b58b486cdec81b70b453e90051"
+    },
+    {
+      "bank_key": "fms/battlewaveplanexplain.fms",
+      "records": 10,
+      "sha256": "a2d7b615be81d4d79554e7de01febc2608baa8b3079c149be4bca6b512001499"
+    },
+    {
+      "bank_key": "fms/branch.fms",
+      "records": 132,
+      "sha256": "c96fb9947e0383bef5f8f1031ecf20e6f96bb50982780556314e4bfe31324805"
+    },
+    {
+      "bank_key": "fms/charaname.fms",
+      "records": 27,
+      "sha256": "31181117a020a4b91688a516527cdbeacb2920a7c7fedbaaa682d91cd557f83d"
+    },
+    {
+      "bank_key": "fms/cloudfixname.fms",
+      "records": 91,
+      "sha256": "4b2ce84ee41e484cd8f5e0c6f7ce7ed3a41e96540c66fb41fd674a1814ea0091"
+    },
+    {
+      "bank_key": "fms/dbtrophylist.fms",
+      "records": 39,
+      "sha256": "55cb26c467d2b6ad0e7b5153f2530888c5918963748d12f60ac5762aa218e81f"
+    },
+    {
+      "bank_key": "fms/historylist.fms",
+      "records": 347,
+      "sha256": "fe8caa59cf984ae1bb532705e4a05b3cf8ec42744f8ae16880336f772e53bbe5"
+    },
+    {
+      "bank_key": "fms/metaskillhelp.fms",
+      "records": 29,
+      "sha256": "05748748e35d928bd0fd4b5ec95284a6e1674ccbab6d39b4c12be0c27d84ba42"
+    },
+    {
+      "bank_key": "fms/metaskillname.fms",
+      "records": 20,
+      "sha256": "195249fbde94dad3980d9ca4062648af71076f1b2b42b12ab5b07df31e27c986"
+    },
+    {
+      "bank_key": "fms/mysterylist.fms",
+      "records": 406,
+      "sha256": "43c43853069b15e37a275a9a9bc76c23d9eab8a6e10e8cbee7e06a9a90e81270"
+    },
+    {
+      "bank_key": "fms/scripttext.fms",
+      "records": 5022,
+      "sha256": "cd35e0bc35ac3df377cfecea00264bc502cdd1c3a5de24941e6e40d10a62e000"
+    },
+    {
+      "bank_key": "fms/staffroll.fms",
+      "records": 23,
+      "sha256": "3c18551e105f1a08c6d4ada198eecd1476925b502c32a4e295af4559e4de7754"
+    },
+    {
+      "bank_key": "fms/stagename.fms",
+      "records": 15,
+      "sha256": "f8d861c53a51785097ccaa2dd2c4edc96256cddfab668ff7353039b7601f24cd"
+    },
+    {
+      "bank_key": "fms/sysmsg.fms",
+      "records": 97,
+      "sha256": "34eee50c83a7aaf5a34a070685da524a5f994a3e3ce3859473e1e5667ee18137"
+    },
+    {
+      "bank_key": "fms/tips.fms",
+      "records": 7,
+      "sha256": "db7e6e6158f6b8266d5695033424aa88f9682769853c14293f2a6d7f524b5f98"
+    },
+    {
+      "bank_key": "fms/weaponhelp.fms",
+      "records": 9,
+      "sha256": "760e7be78cc32307527f38bba66882a7f8c96cb31972760115cb4248a1787a6b"
+    },
+    {
+      "bank_key": "fms/weaponname.fms",
+      "records": 10,
+      "sha256": "5583e8844aeacb6a2431a15cc55be4a874d7aa5d7871ed0bf73964e2f7e524ef"
+    }
+  ],
+  "changes_sha256": "19a18912dcdcf4f7f21133b4a9df87b9477fb9344493728a97f02ce17bea1b05",
+  "format": "cpk-fmsb-1",
+  "game": {
+    "base_version": "1.00",
+    "region": "US",
+    "title": "13 Sentinels: Aegis Rim",
+    "title_id": "01003FC01670C000",
+    "update_version": "1.10"
+  },
+  "record_count": 6477,
+  "schema": "13s-translations.2",
+  "target_source": {
+    "role": "overlay",
+    "sha256": "13ced0d0e0a7396335682aceedaf43f298edb9fc7e984c0fb27ab777ef0b1450",
+    "size": 4733704
+  }
+}

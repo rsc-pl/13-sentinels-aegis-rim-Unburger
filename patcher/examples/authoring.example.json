@@ -1,0 +1,36 @@
+{
+  "bundle_id": "example-1",
+  "bundle_version": "1.0.0",
+  "release_version": "2026.1",
+  "created_utc": "2026-01-01T00:00:00Z",
+  "notes": "Neutral authoring document example. Run tools/bundle-export to turn this into a bundle.",
+  "game": {
+    "title": "Example Game",
+    "region": "US",
+    "base_version": "1.10"
+  },
+  "format_version": "cpk-fmsb-1",
+  "required_sources": [
+    {
+      "role": "patch_archive",
+      "name": "Game patch archive",
+      "path_hint": "GAME_PATCH.CPK",
+      "size": 14512,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "operations": [
+    {
+      "id": "op-example-0",
+      "member": "Fms/Greeting.fms",
+      "record_index": 0,
+      "original": "Hello, pilot.",
+      "replacement": "Greetings, pilot.",
+      "preserve_tokens": true
+    }
+  ],
+  "output_constraints": {
+    "preserve_unmodified_members": true,
+    "member_count_delta": 0
+  }
+}
