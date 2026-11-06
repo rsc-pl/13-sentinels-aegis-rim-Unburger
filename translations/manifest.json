@@ -58,8 +58,8 @@
     },
     {
       "bank_key": "fms/scripttext.fms",
-      "records": 5022,
-      "sha256": "cd35e0bc35ac3df377cfecea00264bc502cdd1c3a5de24941e6e40d10a62e000"
+      "records": 5823,
+      "sha256": "9e6918bd9fe5a2237602d670f1a55e06e1c73640a9c56f5421e6591e023ad0ec"
     },
     {
       "bank_key": "fms/staffroll.fms",
@@ -92,7 +92,7 @@
       "sha256": "5583e8844aeacb6a2431a15cc55be4a874d7aa5d7871ed0bf73964e2f7e524ef"
     }
   ],
-  "changes_sha256": "19a18912dcdcf4f7f21133b4a9df87b9477fb9344493728a97f02ce17bea1b05",
+  "changes_sha256": "7683fe953ff783692c0827b3a7970d69c9999dd7ae6c00a040fc2d7ced0fe973",
   "format": "cpk-fmsb-1",
   "game": {
     "base_version": "1.00",
@@ -101,7 +101,7 @@
     "title_id": "01003FC01670C000",
     "update_version": "1.10"
   },
-  "record_count": 6477,
+  "record_count": 7278,
   "schema": "13s-translations.2",
   "target_source": {
     "role": "overlay",
