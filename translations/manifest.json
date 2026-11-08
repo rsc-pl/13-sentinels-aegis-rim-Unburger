@@ -28,8 +28,8 @@
     },
     {
       "bank_key": "fms/cloudfixname.fms",
-      "records": 91,
-      "sha256": "4b2ce84ee41e484cd8f5e0c6f7ce7ed3a41e96540c66fb41fd674a1814ea0091"
+      "records": 92,
+      "sha256": "3eb9454e724adf412a9496960c9887d846019efbe7c354c30ccf825eddc9cbdd"
     },
     {
       "bank_key": "fms/dbtrophylist.fms",
@@ -39,7 +39,7 @@
     {
       "bank_key": "fms/historylist.fms",
       "records": 347,
-      "sha256": "fe8caa59cf984ae1bb532705e4a05b3cf8ec42744f8ae16880336f772e53bbe5"
+      "sha256": "35022024bf63693353b472af35a0c81158af699b5945d63374a9ca12e2d288e3"
     },
     {
       "bank_key": "fms/metaskillhelp.fms",
@@ -53,13 +53,13 @@
     },
     {
       "bank_key": "fms/mysterylist.fms",
-      "records": 406,
-      "sha256": "43c43853069b15e37a275a9a9bc76c23d9eab8a6e10e8cbee7e06a9a90e81270"
+      "records": 408,
+      "sha256": "13207565a901090a69e3643a7140605632e67a23a2c8a6a76f472c324f4c638f"
     },
     {
       "bank_key": "fms/scripttext.fms",
-      "records": 5823,
-      "sha256": "9e6918bd9fe5a2237602d670f1a55e06e1c73640a9c56f5421e6591e023ad0ec"
+      "records": 6301,
+      "sha256": "c75fff79317fcdf7ec5c87fdbd85913a7582d84eb5bb2c0585ac168e8c434a13"
     },
     {
       "bank_key": "fms/staffroll.fms",
@@ -92,7 +92,7 @@
       "sha256": "5583e8844aeacb6a2431a15cc55be4a874d7aa5d7871ed0bf73964e2f7e524ef"
     }
   ],
-  "changes_sha256": "7683fe953ff783692c0827b3a7970d69c9999dd7ae6c00a040fc2d7ced0fe973",
+  "changes_sha256": "487baabd62c0793809592118a3edb27fd9171131d16fc0403eafb2ee5c0d1e57",
   "format": "cpk-fmsb-1",
   "game": {
     "base_version": "1.00",
@@ -101,7 +101,7 @@
     "title_id": "01003FC01670C000",
     "update_version": "1.10"
   },
-  "record_count": 7278,
+  "record_count": 7759,
   "schema": "13s-translations.2",
   "target_source": {
     "role": "overlay",
